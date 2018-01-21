@@ -4,7 +4,7 @@ namespace Com.ACBC.Framework.Database
 {
     public class PException : Exception
     {
-        private Exception e;
+        public Exception e;
         private Type exType;
         private object remark;
 

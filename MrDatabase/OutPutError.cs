@@ -10,6 +10,11 @@ namespace Com.ACBC.Framework.Database
 
         public static void getError(Exception e,string msg)
         {
+            if(e.GetType()==typeof(PException))
+            {
+                PException pe = (PException)e;
+                e = pe.e;
+            }
             using (StreamWriter win = new StreamWriter(path, true, Encoding.Default))
             {
                 win.WriteLine("------------------------------------------------------------------------------------------------------");
