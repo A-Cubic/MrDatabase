@@ -37,12 +37,6 @@ namespace Com.ACBC.Framework.Database
         /// <returns></returns>
         DataSet getDataSet(string strSql, string tableName);
 
-        ///// <summary>
-        ///// 返回XML类型数据
-        ///// </summary>
-        ///// <returns></returns>
-        //string getXML(DataSet ds);
-
         /// <summary>
         /// 返回XML类型数据
         /// </summary>
