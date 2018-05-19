@@ -70,6 +70,11 @@ namespace Com.ACBC.Framework.Database
                 OutPutError.getError(ex, sql);
                 throw ex;
             }
+            finally
+            {
+                ido.closeDatabase();
+                ido = null;
+            }
             //catch (Exception e)
             //{
             //    null;
@@ -123,6 +128,11 @@ namespace Com.ACBC.Framework.Database
             {
                 OutPutError.getError(ex, sql);
                 throw ex;
+            }
+            finally
+            {
+                ido.closeDatabase();
+                ido = null;
             }
             //catch (Exception e)
             //{
@@ -196,6 +206,11 @@ namespace Com.ACBC.Framework.Database
                 OutPutError.getError(ex, ex.Remark);
                 throw ex;
             }
+            finally
+            {
+                ido.closeDatabase();
+                ido = null;
+            }
             //catch (Exception e)
             //{
             //    null;
@@ -255,6 +270,11 @@ namespace Com.ACBC.Framework.Database
             {
                 OutPutError.getError(e, sql);
             }
+            finally
+            {
+                ido.closeDatabase();
+                ido = null;
+            }
 
             return pr;
         }
@@ -305,6 +325,11 @@ namespace Com.ACBC.Framework.Database
             {
                 OutPutError.getError(ex, ex.Remark);
                 throw ex;
+            }
+            finally
+            {
+                ido.closeDatabase();
+                ido = null;
             }
         }
 
