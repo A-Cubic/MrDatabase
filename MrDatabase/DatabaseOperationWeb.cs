@@ -52,10 +52,10 @@ namespace Com.ACBC.Framework.Database
 
                     //    break;
 
-                    //case DBType.SqlServers:
-                    //    ido = new SqlAccess();
+                    case DBType.SqlServers:
+                        ido = new SqlAccess();
 
-                    //    break;
+                        break;
                 }
                 ido.setConnectString(TYPE.getConnString());
             }
@@ -106,10 +106,10 @@ namespace Com.ACBC.Framework.Database
 
                     //    break;
 
-                    //case DBType.SqlServers:
-                    //    ido = new SqlAccess();
+                    case DBType.SqlServers:
+                        ido = new SqlAccess();
 
-                    //    break;
+                        break;
                 }
                 ido.setConnectString(TYPE.getConnString());
             }
@@ -179,10 +179,10 @@ namespace Com.ACBC.Framework.Database
 
                     //    break;
 
-                    //case DBType.SqlServers:
-                    //    ido = new SqlAccess();
+                    case DBType.SqlServers:
+                        ido = new SqlAccess();
 
-                    //    break;
+                        break;
                 }
                 ido.setConnectString(TYPE.getConnString());
             }
@@ -234,10 +234,10 @@ namespace Com.ACBC.Framework.Database
 
                     //    break;
 
-                    //case DBType.SqlServers:
-                    //    ido = new SqlAccess();
+                    case DBType.SqlServers:
+                        ido = new SqlAccess();
 
-                    //    break;
+                        break;
                 }
                 ido.setConnectString(TYPE.getConnString());
             }
@@ -289,10 +289,10 @@ namespace Com.ACBC.Framework.Database
 
                     //    break;
 
-                    //case DBType.SqlServers:
-                    //    ido = new SqlAccess();
+                    case DBType.SqlServers:
+                        ido = new SqlAccess();
 
-                    //    break;
+                        break;
                 }
                 ido.setConnectString(TYPE.getConnString());
             }

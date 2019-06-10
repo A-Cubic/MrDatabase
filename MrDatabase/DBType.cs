@@ -7,7 +7,7 @@ namespace Com.ACBC.Framework.Database
 
         Mysql = 2,
 
-        //SqlServers = 3,
+        SqlServers = 3,
 
         //Access = 4,
     }

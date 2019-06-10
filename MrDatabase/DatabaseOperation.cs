@@ -33,12 +33,12 @@ namespace Com.ACBC.Framework.Database
 
                     //case DBType.Oracle:
                     //    ido = new OracleAccess();
-                        
+
                     //    break;
 
-                    //case DBType.SqlServers:
-                    //    ido = new SqlAccess();
-                        
+                    case DBType.SqlServers:
+                        ido = new SqlAccess();
+
                         break;
                 }
                 ido.setConnectString(TYPE.getConnString());
