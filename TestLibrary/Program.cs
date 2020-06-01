@@ -8,8 +8,8 @@ namespace TestLibrary
     {
         static void Main(string[] args)
         {
-            DatabaseOperation.TYPE = new DBManager();
-            DataTable dt = DatabaseOperation.ExecuteSelectDS("select now()", "t").Tables[0];
+            DatabaseOperationWeb.TYPE = new DBManager();
+            DataTable dt = DatabaseOperationWeb.ExecuteSelectDS("select * from dual", "t").Tables[0];
             Console.WriteLine(dt.Rows[0][0].ToString());
             Console.ReadKey();
         }

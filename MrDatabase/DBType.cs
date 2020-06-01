@@ -3,7 +3,7 @@ namespace Com.ACBC.Framework.Database
 {
     public enum DBType
     {
-        //Oracle = 1,
+        Oracle = 1,
 
         Mysql = 2,
 

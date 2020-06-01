@@ -47,10 +47,10 @@ namespace Com.ACBC.Framework.Database
 
                         break;
 
-                    //case DBType.Oracle:
-                    //    ido = new OracleAccess();
+                    case DBType.Oracle:
+                        ido = new OracleAccess();
 
-                    //    break;
+                        break;
 
                     case DBType.SqlServers:
                         ido = new SqlAccess();
@@ -101,10 +101,10 @@ namespace Com.ACBC.Framework.Database
 
                         break;
 
-                    //case DBType.Oracle:
-                    //    ido = new OracleAccess();
+                    case DBType.Oracle:
+                        ido = new OracleAccess();
 
-                    //    break;
+                        break;
 
                     case DBType.SqlServers:
                         ido = new SqlAccess();
@@ -174,10 +174,10 @@ namespace Com.ACBC.Framework.Database
 
                         break;
 
-                    //case DBType.Oracle:
-                    //    ido = new OracleAccess();
+                    case DBType.Oracle:
+                        ido = new OracleAccess();
 
-                    //    break;
+                        break;
 
                     case DBType.SqlServers:
                         ido = new SqlAccess();
@@ -229,10 +229,10 @@ namespace Com.ACBC.Framework.Database
 
                         break;
 
-                    //case DBType.Oracle:
-                    //    ido = new OracleAccess();
+                    case DBType.Oracle:
+                        ido = new OracleAccess();
 
-                    //    break;
+                        break;
 
                     case DBType.SqlServers:
                         ido = new SqlAccess();
@@ -284,10 +284,10 @@ namespace Com.ACBC.Framework.Database
 
                         break;
 
-                    //case DBType.Oracle:
-                    //    ido = new OracleAccess();
+                    case DBType.Oracle:
+                        ido = new OracleAccess();
 
-                    //    break;
+                        break;
 
                     case DBType.SqlServers:
                         ido = new SqlAccess();

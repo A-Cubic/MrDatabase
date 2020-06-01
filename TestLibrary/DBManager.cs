@@ -10,11 +10,19 @@ namespace TestLibrary
         /// <summary>
         /// 数据库类型对象
         /// </summary>
-        private DBType dbt = DBType.Mysql;
+        private DBType dbt = DBType.Oracle;
         /// <summary>
         /// 连接串
         /// </summary>
-        private string str = "Server=xx.xx.xx.xx;Port=xx;Database=xx;Uid=xx;Pwd=xx;CharSet=utf8;";
+        private string str = "DATA SOURCE=(DESCRIPTION ="
+                                    + "    (ADDRESS_LIST ="
+                                    + "      (ADDRESS = (PROTOCOL = TCP)(HOST = )(PORT = 1521))"
+                                    + "    )"
+                                    + "    (CONNECT_DATA ="
+                                    + "      (SERVICE_NAME = orcl)"
+                                    + "    )"
+                                    + "  )"
+                                    + "; USER ID =;PASSWORD=";
         /// <summary>
         /// 构造函数
         /// </summary>
